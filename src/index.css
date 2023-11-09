@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.button{
+    @apply w-20 h-8 flex justify-center items-center
+}
