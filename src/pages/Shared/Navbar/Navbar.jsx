@@ -24,18 +24,18 @@ const Navbar = () => {
                 </div>
 
                 <ul className='gap-3 md:flex '>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >Home</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >Dashboard</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >NFT</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >Buy</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >Referrals</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >Earn</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link >About</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Home</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Dashboard</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >NFT</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Buy</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Referrals</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Earn</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >About</Link></li>
 
                 </ul>
                 <ul className='gap-4 md:flex sm:hidden'>
-                    <li className='hover:bg-purple-700 rounded-md button '> <Link>Login</Link></li>
-                    <li className='hover:bg-purple-700 rounded-md button '><Link>Log Out</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link>Login</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '><Link>Log Out</Link></li>
                 </ul>
             </ul>
 
