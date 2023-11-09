@@ -17,10 +17,10 @@ const Navbar = () => {
                     }
                 </span>
             </div>
-            <ul className={` gap- items-center z-10 py-4 absolute md:static duration-500 md:flex shadow-purple-200 ${open ? "top-4" : "-top-96"}`}>
+            <ul className={` justify-between items-center z-10 py-4 absolute md:static duration-500 md:flex shadow-purple-200 ${open ? "top-4" : "-top-96"}`}>
                 <div className='md:flex justify-center items-center'>
                     <Link><img className='h-12 w-12' src="https://i.ibb.co/XFKjMfT/New-Logo.png" alt="" /></Link>
-                    <li className='hover:bg-purple-700 rounded-md text-xl p-1'> <Link >Romi Finance</Link></li>
+                    <li className='hover:bg-purple-700 rounded-md text-2xl p-1'> <Link >Reach Safely</Link></li>
                 </div>
 
                 <ul className='gap-3 md:flex '>
@@ -34,8 +34,8 @@ const Navbar = () => {
 
                 </ul>
                 <ul className='gap-4 md:flex sm:hidden'>
-                   <li> <Link>Login</Link></li>
-                    <li><Link>Log Out</Link></li>
+                    <li className='hover:bg-purple-700 rounded-md button '> <Link>Login</Link></li>
+                    <li className='hover:bg-purple-700 rounded-md button '><Link>Log Out</Link></li>
                 </ul>
             </ul>
 
