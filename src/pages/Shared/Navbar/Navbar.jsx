@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
