@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='bg-[#F1EAFF] shadow-purple-600'>
+        <nav className='md:bg-[#F1EAFF] shadow-purple-600'>
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>
                     {
@@ -17,7 +17,7 @@ const Navbar = () => {
                     }
                 </span>
             </div>
-            <ul className={` justify-between items-center z-10 py-4 absolute md:static duration-500 md:flex shadow-purple-200 ${open ? "top-4" : "-top-96"}`}>
+            <ul className={` justify-between items-center z-10 py-2 rounded-md bg-[#F1EAFF] absolute md:static duration-500 md:flex shadow-purple-200 ${open ? "top-8" : "-top-96"}`}>
                 <div className='md:flex justify-center items-center'>
                     <Link><img className='h-12 w-12' src="https://i.ibb.co/XFKjMfT/New-Logo.png" alt="" /></Link>
                     <li className='hover:bg-purple-700 rounded-md text-2xl p-1'> <Link >Reach Safely</Link></li>
