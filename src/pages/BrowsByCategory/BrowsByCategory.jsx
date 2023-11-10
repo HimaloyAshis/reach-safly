@@ -67,10 +67,10 @@ const BrowsByCategory = () => {
                     <img className='w-96 h-80 pb-16  -top-4 pl-8 bg-[#1746A2]' src="https://img.freepik.com/free-photo/traveler-man-has-walk-with-backpack-carries-necessary-things-trip-looks-through-binoculars-has-glad-look-wears-casual-clothes_273609-33657.jpg?w=900&t=st=1699600518~exp=1699601118~hmac=5d3fb6bfb366e5601bdb6851889cf8fa799b1de31ba9e94c1eb75eae314f854e" title='guidance counselor' alt="guidance counselor" />
                     <p className='font-bold text-2xl fonts absolute top-64 pl-8 text-white'>10 years experiences</p>
                 </div>
-                <div className=''>
+                <div className='w-96'>
                     <p className='text-xl font-bold '>Why Choose us</p>
-                    <p className='text-xl font-bold '>Plan your trip</p>
-                    <p className='text-xl font-bold '>With Reach Safely</p>
+                    <p className='text-3xl font-bold '>Plan your trip</p>
+                    <p className='text-3xl font-bold '>With Reach Safely</p>
                     <p className=' text-[#8d989e]'>Holisticly optimize proactive strategic theme areas rather than effective manufactured products create. </p>
                 </div>
             </div>
