@@ -1,4 +1,5 @@
 import React from 'react';
+import BrowsByCategory from '../BrowsByCategory/BrowsByCategory';
 
 const Home = () => {
     return (
@@ -36,7 +37,7 @@ const Home = () => {
                     <button type='submit' className='bg-[#FF9209] text-white py-1 px-3 rounded'>Search</button>
                 </div>
             </div>
-            <div></div>
+            <BrowsByCategory></BrowsByCategory>
         </div>
     );
 };
