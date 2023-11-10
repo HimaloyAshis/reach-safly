@@ -4,6 +4,7 @@ import { TbBeachOff, TbSailboat2 } from "react-icons/tb";
 import { SiYourtraveldottv } from "react-icons/si";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { GiHiking } from "react-icons/gi";
+import { GiCheckMark } from "react-icons/gi";
 
 const BrowsByCategory = () => {
 
@@ -72,6 +73,28 @@ const BrowsByCategory = () => {
                     <p className='text-3xl font-bold '>Plan your trip</p>
                     <p className='text-3xl font-bold '>With Reach Safely</p>
                     <p className=' text-[#8d989e]'>Holisticly optimize proactive strategic theme areas rather than effective manufactured products create. </p>
+                    <div className=' pt-12'>
+                        <div className=' flex w-full gap-10 justify-center items-center'>
+                            <div className=' flex w-2/3 gap-4  items-center'>
+                                <GiCheckMark></GiCheckMark>
+                                <p>Travel Plan</p>
+                            </div>
+                            <div className='flex w-2/3 gap-4  items-center'>
+                                <GiCheckMark></GiCheckMark>
+                                <p>Cheap rates</p>
+                            </div>
+                        </div>
+                        <div className=' flex gap-10 justify-center items-center'>
+                            <div className=' w-2/3 flex gap-4   items-center'>
+                                <GiCheckMark></GiCheckMark>
+                                <p>Hand picked tour</p>
+                            </div>
+                            <div className='flex w-2/3 gap-4  items-center'>
+                                <GiCheckMark></GiCheckMark>
+                                <p>Private guide</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
