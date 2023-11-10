@@ -1,5 +1,7 @@
 import React from 'react';
 import BrowsByCategory from '../BrowsByCategory/BrowsByCategory';
+import "../Home/Home.css"
+
 
 const Home = () => {
     return (
