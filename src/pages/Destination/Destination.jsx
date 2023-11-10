@@ -11,6 +11,8 @@ const Destination = () => {
             <Carousel>
                 <div>
                     <img className=''  src="https://images.pexels.com/photos/18969427/pexels-photo-18969427/free-photo-of-forth-bridge-in-scotland.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    <p className=' font-bold '>United Kingdom</p>
+                    <p className=' font-bold '>123,343 traveler</p>
 
                 </div>
                 <div>
