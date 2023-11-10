@@ -1,3 +1,8 @@
-.h{
-    background-size: '600px';
+.hei{
+    height: '600px';
+    width: auto;
+    /* background-size: cover;
+    background-position: fixed;
+    background-attachment: center;
+    background-image: url('https://images.pexels.com/photos/18969427/pexels-photo-18969427/free-photo-of-forth-bridge-in-scotland.jpeg?auto=compress&cs=tinysrgb&w=600'); */
 }
