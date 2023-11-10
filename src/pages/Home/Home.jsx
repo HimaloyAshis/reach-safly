@@ -1,6 +1,7 @@
 import React from 'react';
 import BrowsByCategory from '../BrowsByCategory/BrowsByCategory';
 import "../Home/Home.css"
+import Destination from '../Destination/Destination';
 
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
                 </div>
             </div>
             <BrowsByCategory></BrowsByCategory>
+            <Destination></Destination>
         </div>
     );
 };

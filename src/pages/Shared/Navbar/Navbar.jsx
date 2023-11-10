@@ -25,12 +25,12 @@ const Navbar = () => {
 
                 <ul className='gap-3 md:flex '>
                     <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Home</Link></li>
-                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Dashboard</Link></li>
-                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >NFT</Link></li>
-                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Buy</Link></li>
-                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Referrals</Link></li>
-                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Earn</Link></li>
                     <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >About</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Tours</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Destinations</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Blog</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Pages</Link></li>
+                    <li className='hover:bg-purple-700 hover:text-[#F1EAFF] rounded-md button '> <Link >Contact</Link></li>
 
                 </ul>
                 <ul className='gap-4 md:flex sm:hidden'>
