@@ -13,7 +13,7 @@ const Home = () => {
                         <p className='  text-[#949ea3] text-xl p'>Find awesome hotel, car and activities in london </p>
                     </div>
                     <div className='md:flex justify-center pt-10 gap-8 '>
-                        <img className='w-96 h-96' src="https://img.freepik.com/free-photo/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand_335224-1390.jpg?size=626&ext=jpg&uid=R124603556&ga=GA1.1.1842592228.1683275805&semt=ais" alt="" />
+                        <img className='w-80 h-80' src="https://img.freepik.com/free-photo/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand_335224-1390.jpg?size=626&ext=jpg&uid=R124603556&ga=GA1.1.1842592228.1683275805&semt=ais" alt="" />
                         <img className='w-80' src="https://img.freepik.com/free-photo/traveler-girl-searching-right-direction-map_1150-45010.jpg?size=626&ext=jpg&uid=R124603556&ga=GA1.1.1842592228.1683275805&semt=ais" alt="" />
                     </div>
                 </div>
