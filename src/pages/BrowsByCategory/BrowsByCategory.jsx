@@ -96,7 +96,7 @@ const BrowsByCategory = () => {
                             </div>
                         </div>
                     </div>
-                    <button className=' border border-black py-3 px-7  mt-6 rounded-md' type="button">Contact</button>
+                    <button className=' hover:bg-slate-300 duration-500 border border-black py-3 px-7  mt-6 rounded-md' type="button">Contact</button>
                 </div>
 
             </div>
