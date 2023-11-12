@@ -6,7 +6,7 @@ import '../Destination/Destination.css'
 const Destination = () => {
     return (
         <div className='mt-16 ' >
-            <p className='font-bold text-2xl text-[#164863] '>Destination</p>
+            <p className='font-bold text-2xl  text-[#164863] '>Destination</p>
             <p className='font-bold text-2xl pb-6'>Top Destinations</p>
             <Carousel>
                 <div className='py-2 '>
